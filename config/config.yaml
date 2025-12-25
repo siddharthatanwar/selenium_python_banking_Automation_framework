@@ -1,0 +1,9 @@
+default_env: qa
+
+timeouts:
+  explicit_wait: 20
+  page_load: 30
+
+logging:
+  level: INFO
+  log_file: reports/automation.log
