@@ -1,22 +1,21 @@
 import pytest
-from apis.user_api import UserAPI
+from core.assertions import assert_key_in_response
 
 @pytest.mark.api
 class TestUserAPI:
 
-    def test_get_users(self):
-        api = UserAPI()
-        response = api.get_users(page=2)
-
+    @pytest.mark.parametrize("page", [1, 2, 3])
+    def test_get_users(self, user_api,page):
+        response = user_api.get_users(page=page)
         assert response.status_code == 200
-        data = response.json()
 
-        assert "data" in data
-        assert len(data["data"]) > 0
+        body = response.json()
+        assert "users" in body
+        assert len(body["users"]) > 0
 
-    def test_create_user(self):
-        api = UserAPI()
-        response = api.create_user("Siddharth", "QA Architect")
-
+    def test_create_user(self, user_api):
+        response = user_api.create_user("Sidharth", "QA Architect")
         assert response.status_code == 201
-        assert response.json()["name"] == "Siddharth"
+
+        body = response.json()
+        assert body["firstName"] == "Sidharth"

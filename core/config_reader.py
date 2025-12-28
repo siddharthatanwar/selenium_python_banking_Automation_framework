@@ -25,3 +25,16 @@ class ConfigReader:
     @staticmethod
     def get_env(key):
         return ConfigReader._env_config.get(key)
+# 👇 ADD THIS AT THE END OF FILE
+
+def get_wait_config(env=None):
+    # Make sure config is loaded
+    ConfigReader.load_config(env)
+
+    env_cfg = ConfigReader._env_config or {}
+    wait_cfg = env_cfg.get("wait", {})
+
+    return {
+        "timeout": float(wait_cfg.get("timeout", 10)),
+        "poll": float(wait_cfg.get("poll", 0.5))
+    }

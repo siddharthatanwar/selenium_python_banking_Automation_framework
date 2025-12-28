@@ -1,47 +1,21 @@
-# import requests
-# import logging
-# from core.config_reader import ConfigReader
-
-# class BaseAPI:
-#     def __init__(self):
-#         self.logger = logging.getLogger("AutomationLogger")
-#         self.base_url = ConfigReader.get_env("api")["base_url"]
-
-#     def get(self, endpoint, headers=None, params=None):
-#         self.logger.info(f"GET {endpoint}")
-#         response = requests.get(
-#             self.base_url + endpoint,
-#             headers=headers,
-#             params=params
-#         )
-#         return response
-
-#     def post(self, endpoint, payload=None, headers=None):
-#         self.logger.info(f"POST {endpoint}")
-#         response = requests.post(
-#             self.base_url + endpoint,
-#             json=payload,
-#             headers=headers
-#         )
-#         return response
-
-
-# apis/base_api.py
-
 import requests
 import logging
 import time
-from core.config_reader import ConfigReader
 
 DEFAULT_HEADERS = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Origin": "https://reqres.in",
+    "Referer": "https://reqres.in/",
+    "Connection": "keep-alive"
 }
 
+
 class BaseAPI:
-    def __init__(self):
+    def __init__(self, base_url):
         self.logger = logging.getLogger("AutomationLogger")
-        self.base_url = ConfigReader.get_env("api")["base_url"]
+        self.base_url = base_url.rstrip("/")   # safety
 
     def get(self, endpoint, headers=None, params=None, retries=2):
         all_headers = DEFAULT_HEADERS.copy()
@@ -49,9 +23,14 @@ class BaseAPI:
             all_headers.update(headers)
 
         url = self.base_url + endpoint
+
+         # 🟦 NEW — log outgoing request
         self.logger.info(f"GET {url}")
+        if params:
+            self.logger.info(f"Query Params → {params}")
 
         last_response = None
+
         for attempt in range(retries + 1):
             last_response = requests.get(
                 url,
@@ -60,7 +39,12 @@ class BaseAPI:
                 timeout=30
             )
 
-            # If NOT server-side issue, break
+            # 🟦 NEW — log status
+            self.logger.info(f"Status: {last_response.status_code}")
+
+            # 🟩 OPTIONAL — only log response body when needed
+            self.logger.debug(f"Response Body ← {last_response.text}")
+
             if last_response.status_code < 500:
                 break
 
@@ -77,9 +61,14 @@ class BaseAPI:
             all_headers.update(headers)
 
         url = self.base_url + endpoint
-        self.logger.info(f"POST {url}")
+        
+        # 🟦 NEW — log outgoing request + payload
+        self.logger.info(f"POST → {url}")
+        if payload:
+            self.logger.info(f"Payload → {payload}")
 
         last_response = None
+
         for attempt in range(retries + 1):
             last_response = requests.post(
                 url,
@@ -87,6 +76,12 @@ class BaseAPI:
                 headers=all_headers,
                 timeout=30
             )
+
+            #   Log status
+            self.logger.info(f"Status: {last_response.status_code}")
+
+            # 🟩 OPTIONAL
+            self.logger.debug(f"Response Body ← {last_response.text}")
 
             if last_response.status_code < 500:
                 break

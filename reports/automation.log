@@ -25,3 +25,400 @@
 2025-12-25 21:52:36,253 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
 2025-12-25 21:53:32,046 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
 2025-12-25 21:56:44,043 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 13:34:45,581 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 13:34:45,582 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 13:34:48,099 | INFO | AutomationLogger | Opening login page
+2025-12-26 13:34:48,100 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 13:34:52,377 | INFO | AutomationLogger | Closing browser
+2025-12-26 13:39:30,349 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 13:39:30,349 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 13:39:31,751 | INFO | AutomationLogger | Opening login page
+2025-12-26 13:39:31,751 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 13:39:35,783 | INFO | AutomationLogger | Closing browser
+2025-12-26 13:40:33,540 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 13:40:33,541 | INFO | AutomationLogger | GET https://reqres.in/products
+2025-12-26 13:40:35,154 | INFO | AutomationLogger | GET https://reqres.in/products/1
+2025-12-26 13:40:35,893 | INFO | AutomationLogger | GET https://reqres.in/api/users?page=2
+2025-12-26 13:40:36,360 | INFO | AutomationLogger | POST https://reqres.in/api/users
+2025-12-26 14:06:46,543 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 14:06:46,544 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 14:06:47,734 | INFO | AutomationLogger | Status: 200
+2025-12-26 14:06:47,739 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 14:06:48,573 | INFO | AutomationLogger | Status: 200
+2025-12-26 14:11:45,428 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 14:11:45,429 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 14:11:46,271 | INFO | AutomationLogger | Status: 200
+2025-12-26 14:11:46,276 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 14:11:47,161 | INFO | AutomationLogger | Status: 200
+2025-12-26 14:11:47,165 | INFO | AutomationLogger | GET https://reqres.in/api/users?page=2
+2025-12-26 14:11:47,851 | INFO | AutomationLogger | Status: 403
+2025-12-26 14:11:48,014 | INFO | AutomationLogger | POST https://reqres.in/api/users Payload={'name': 'Siddharth', 'job': 'QA Architect'}
+2025-12-26 14:11:48,411 | INFO | AutomationLogger | Status: 403
+2025-12-26 14:15:22,980 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 14:15:22,980 | INFO | AutomationLogger | GET https://reqres.in/api/users?page=2
+2025-12-26 14:15:23,400 | INFO | AutomationLogger | Status: 403
+2025-12-26 14:15:23,520 | INFO | AutomationLogger | POST https://reqres.in/api/users Payload={'name': 'Siddharth', 'job': 'QA Architect'}
+2025-12-26 14:15:23,950 | INFO | AutomationLogger | Status: 403
+2025-12-26 14:15:36,551 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 14:15:36,552 | INFO | AutomationLogger | GET https://reqres.in/api/users?page=2
+2025-12-26 14:15:36,984 | INFO | AutomationLogger | Status: 403
+2025-12-26 14:15:37,115 | INFO | AutomationLogger | POST https://reqres.in/api/users Payload={'name': 'Siddharth', 'job': 'QA Architect'}
+2025-12-26 14:15:37,529 | INFO | AutomationLogger | Status: 403
+2025-12-26 14:24:15,804 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 14:24:15,805 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 14:24:16,884 | INFO | AutomationLogger | Status: 200
+2025-12-26 14:24:16,888 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 14:24:17,978 | INFO | AutomationLogger | Status: 200
+2025-12-26 14:31:07,806 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 14:31:07,807 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 14:31:08,670 | INFO | AutomationLogger | Status: 200
+2025-12-26 14:31:08,674 | INFO | AutomationLogger | POST https://dummyjson.com/users/add Payload={'firstName': 'Sidharth', 'company': 'QA Architect'}
+2025-12-26 14:31:09,496 | INFO | AutomationLogger | Status: 201
+2025-12-26 15:37:06,408 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 15:37:06,409 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 15:37:07,357 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:37:07,362 | INFO | AutomationLogger | POST https://dummyjson.com/users/add Payload={'firstName': 'Sidharth', 'company': 'QA Architect'}
+2025-12-26 15:37:08,175 | INFO | AutomationLogger | Status: 201
+2025-12-26 15:37:19,830 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 15:37:19,831 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 15:37:20,556 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:37:20,559 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 15:37:21,391 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:37:21,394 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 15:37:22,483 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:37:22,487 | INFO | AutomationLogger | POST https://dummyjson.com/users/add Payload={'firstName': 'Sidharth', 'company': 'QA Architect'}
+2025-12-26 15:37:23,344 | INFO | AutomationLogger | Status: 201
+2025-12-26 15:53:04,292 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 15:53:04,294 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 15:53:05,059 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:53:05,064 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 15:53:05,806 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:53:05,810 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 15:53:06,636 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:53:06,639 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 15:53:07,557 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:53:07,561 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 15:53:08,378 | INFO | AutomationLogger | Status: 200
+2025-12-26 15:53:08,381 | INFO | AutomationLogger | POST https://dummyjson.com/users/add Payload={'firstName': 'Sidharth', 'company': 'QA Architect'}
+2025-12-26 15:53:09,213 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:05:23,535 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:05:23,536 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 16:05:24,396 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:05:24,400 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 16:05:25,435 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:05:25,441 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:05:26,538 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:05:26,544 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 16:05:27,647 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:05:27,653 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 16:05:28,860 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:05:30,159 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:06:48,524 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:06:48,525 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 16:06:48,525 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:06:49,678 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:06:49,684 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 16:06:49,758 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:06:49,764 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 16:06:50,738 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:06:50,743 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 16:06:50,916 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:06:51,737 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:07:12,982 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:22:58,204 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:22:58,204 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 16:22:59,641 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:22:59,642 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:23:03,733 | INFO | AutomationLogger | Closing browser
+2025-12-26 16:23:17,073 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:23:18,562 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 16:23:19,256 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:23:19,259 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 16:23:20,000 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:23:20,004 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:23:20,849 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:23:20,852 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 16:23:21,798 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:23:21,802 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 16:23:22,702 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:23:23,607 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:23:23,610 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 16:23:25,000 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:23:25,001 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:23:28,682 | INFO | AutomationLogger | Closing browser
+2025-12-26 16:29:06,687 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:29:08,575 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:29:08,575 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:29:24,786 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:31:17,438 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:31:19,055 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 16:31:19,845 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:31:19,849 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 16:31:20,604 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:31:20,607 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:31:21,504 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:31:21,507 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 16:31:22,404 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:31:22,408 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 16:31:23,396 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:31:24,266 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:31:24,270 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 16:31:25,758 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:31:25,759 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:31:29,844 | INFO | AutomationLogger | Closing browser
+2025-12-26 16:31:47,365 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:31:48,822 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:31:48,822 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:35:17,543 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:35:17,544 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:35:18,666 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:35:37,772 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:35:37,773 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:35:38,681 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:35:40,571 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:35:40,572 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:38:55,985 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:38:55,986 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:38:56,905 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:38:58,406 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:38:58,406 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:43:31,317 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:43:32,945 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 16:43:33,685 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:43:33,689 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 16:43:34,470 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:43:34,473 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:43:35,306 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:43:35,310 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 16:43:36,164 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:43:36,167 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 16:43:37,022 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:43:37,932 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:43:37,935 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 16:43:39,356 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:43:39,357 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:43:43,394 | INFO | AutomationLogger | Closing browser
+2025-12-26 16:43:45,663 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:43:46,571 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:43:47,958 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:43:47,959 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:44:50,441 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:44:52,179 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 16:44:53,016 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:44:53,022 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 16:44:53,854 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:44:53,858 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:44:54,731 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:44:54,735 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 16:44:55,573 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:44:55,576 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 16:44:56,407 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:44:57,308 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:44:57,311 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 16:44:58,818 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:44:58,818 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:45:02,854 | INFO | AutomationLogger | Closing browser
+2025-12-26 16:45:05,160 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:45:06,188 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:45:07,590 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:45:07,591 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:48:41,542 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 16:48:43,331 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 16:48:44,178 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:48:44,182 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 16:48:44,956 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:48:44,960 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:48:45,834 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:48:45,838 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 16:48:46,887 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:48:46,891 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 16:48:47,788 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:48:48,631 | INFO | AutomationLogger | Status: 201
+2025-12-26 16:48:48,635 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 16:48:50,022 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:48:50,022 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 16:48:53,892 | INFO | AutomationLogger | Closing browser
+2025-12-26 16:48:56,307 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 16:48:57,203 | INFO | AutomationLogger | Status: 200
+2025-12-26 16:48:58,586 | INFO | AutomationLogger | Opening login page
+2025-12-26 16:48:58,586 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 17:08:46,234 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 17:08:47,823 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 17:08:48,650 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:08:48,655 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 17:08:49,475 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:08:49,480 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 17:08:50,334 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:08:50,338 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 17:08:51,228 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:08:51,231 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 17:08:52,132 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:08:53,030 | INFO | AutomationLogger | Status: 201
+2025-12-26 17:08:53,033 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 17:08:54,511 | INFO | AutomationLogger | Opening login page
+2025-12-26 17:08:54,511 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 17:08:59,424 | INFO | AutomationLogger | Closing browser
+2025-12-26 17:09:01,976 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 17:09:02,868 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:09:04,292 | INFO | AutomationLogger | Opening login page
+2025-12-26 17:09:04,292 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 17:09:48,272 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-26 17:09:49,957 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-26 17:09:50,734 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:09:50,738 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-26 17:09:51,518 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:09:51,521 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 17:09:52,421 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:09:52,425 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-26 17:09:53,253 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:09:53,258 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-26 17:09:54,126 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:09:55,142 | INFO | AutomationLogger | Status: 201
+2025-12-26 17:09:55,147 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-26 17:09:56,553 | INFO | AutomationLogger | Opening login page
+2025-12-26 17:09:56,554 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-26 17:10:00,304 | INFO | AutomationLogger | Closing browser
+2025-12-26 17:10:02,576 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-26 17:10:03,462 | INFO | AutomationLogger | Status: 200
+2025-12-26 17:10:04,916 | INFO | AutomationLogger | Opening login page
+2025-12-26 17:10:04,916 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 12:20:21,073 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-28 12:20:22,685 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-28 12:20:23,459 | INFO | AutomationLogger | Status: 200
+2025-12-28 12:20:23,465 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-28 12:20:24,266 | INFO | AutomationLogger | Status: 200
+2025-12-28 12:20:24,271 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 12:20:25,145 | INFO | AutomationLogger | Status: 200
+2025-12-28 12:20:25,149 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-28 12:20:25,977 | INFO | AutomationLogger | Status: 200
+2025-12-28 12:20:25,980 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-28 12:20:26,786 | INFO | AutomationLogger | Status: 200
+2025-12-28 12:20:27,656 | INFO | AutomationLogger | Status: 201
+2025-12-28 12:20:27,660 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-28 12:20:29,428 | INFO | AutomationLogger | Opening login page
+2025-12-28 12:20:29,429 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 12:20:34,864 | INFO | AutomationLogger | Closing browser
+2025-12-28 12:20:37,234 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 12:20:38,098 | INFO | AutomationLogger | Status: 200
+2025-12-28 12:20:40,315 | INFO | AutomationLogger | Opening login page
+2025-12-28 12:20:40,315 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 13:06:00,943 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-28 13:06:02,588 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-28 13:06:03,358 | INFO | AutomationLogger | Status: 200
+2025-12-28 13:06:03,365 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-28 13:06:04,279 | INFO | AutomationLogger | Status: 200
+2025-12-28 13:06:04,291 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 13:06:05,290 | INFO | AutomationLogger | Status: 200
+2025-12-28 13:06:05,301 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-28 13:06:06,352 | INFO | AutomationLogger | Status: 200
+2025-12-28 13:06:06,367 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-28 13:06:07,614 | INFO | AutomationLogger | Status: 200
+2025-12-28 13:06:08,931 | INFO | AutomationLogger | Status: 201
+2025-12-28 13:06:08,944 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-28 13:06:10,905 | INFO | AutomationLogger | Opening login page
+2025-12-28 13:06:10,906 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 13:06:15,901 | INFO | AutomationLogger | Closing browser
+2025-12-28 13:06:18,259 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 13:06:19,307 | INFO | AutomationLogger | Status: 200
+2025-12-28 13:06:20,832 | INFO | AutomationLogger | Opening login page
+2025-12-28 13:06:20,832 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 16:30:53,145 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-28 16:30:54,763 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-28 16:30:55,602 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:30:55,611 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-28 16:30:56,436 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:30:56,447 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 16:30:57,290 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:30:57,300 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-28 16:30:58,121 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:30:58,133 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-28 16:30:58,947 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:30:59,798 | INFO | AutomationLogger | Status: 201
+2025-12-28 16:30:59,806 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-28 16:31:01,551 | INFO | AutomationLogger | Opening login page
+2025-12-28 16:31:01,551 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 16:31:06,977 | INFO | AutomationLogger | Closing browser
+2025-12-28 16:31:09,189 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 16:31:10,002 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:31:11,577 | INFO | AutomationLogger | Opening login page
+2025-12-28 16:31:11,578 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 16:40:02,333 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-28 16:40:04,113 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-28 16:40:05,082 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:40:05,086 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-28 16:40:05,895 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:40:05,899 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 16:40:06,759 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:40:06,765 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-28 16:40:07,920 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:40:07,926 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-28 16:40:09,217 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:40:10,427 | INFO | AutomationLogger | Status: 201
+2025-12-28 16:40:10,433 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-28 16:40:12,113 | INFO | AutomationLogger | Opening login page
+2025-12-28 16:40:12,113 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 16:40:17,220 | INFO | AutomationLogger | Closing browser
+2025-12-28 16:40:19,564 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 16:40:20,569 | INFO | AutomationLogger | Status: 200
+2025-12-28 16:40:22,073 | INFO | AutomationLogger | Opening login page
+2025-12-28 16:40:22,074 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 17:10:06,111 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-28 17:10:07,586 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-28 17:10:08,365 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:10:08,370 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-28 17:10:09,077 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:10:09,085 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 17:10:09,960 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:10:09,969 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-28 17:10:10,838 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:10:10,848 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-28 17:10:11,820 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:10:12,888 | INFO | AutomationLogger | Status: 201
+2025-12-28 17:10:12,898 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-28 17:10:14,328 | INFO | AutomationLogger | Opening login page
+2025-12-28 17:10:14,328 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 17:10:19,367 | INFO | AutomationLogger | Closing browser
+2025-12-28 17:10:21,591 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 17:10:22,500 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:10:23,934 | INFO | AutomationLogger | Opening login page
+2025-12-28 17:10:23,934 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 17:15:44,572 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-28 17:15:46,411 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-28 17:15:47,211 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:15:47,222 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-28 17:15:48,043 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:15:48,059 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 17:15:49,273 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:15:49,289 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-28 17:15:50,468 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:15:50,481 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-28 17:15:51,564 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:15:52,906 | INFO | AutomationLogger | Status: 201
+2025-12-28 17:15:52,924 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-28 17:15:54,740 | INFO | AutomationLogger | Opening login page
+2025-12-28 17:15:54,741 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 17:15:59,817 | INFO | AutomationLogger | Closing browser
+2025-12-28 17:16:02,215 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 17:16:03,225 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:16:04,618 | INFO | AutomationLogger | Opening login page
+2025-12-28 17:16:04,618 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 17:22:40,790 | INFO | AutomationLogger | ==== Automation Logger Initialized ====
+2025-12-28 17:22:42,600 | INFO | AutomationLogger | GET https://dummyjson.com/products
+2025-12-28 17:22:43,345 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:22:43,352 | INFO | AutomationLogger | GET https://dummyjson.com/products/1
+2025-12-28 17:22:44,111 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:22:44,121 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 17:22:45,076 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:22:45,086 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=10
+2025-12-28 17:22:46,028 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:22:46,040 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=20
+2025-12-28 17:22:46,941 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:22:47,812 | INFO | AutomationLogger | Status: 201
+2025-12-28 17:22:47,823 | INFO | AutomationLogger | Starting browser: chrome
+2025-12-28 17:22:49,363 | INFO | AutomationLogger | Opening login page
+2025-12-28 17:22:49,363 | INFO | AutomationLogger | LoginPage.open() called
+2025-12-28 17:22:53,989 | INFO | AutomationLogger | Closing browser
+2025-12-28 17:22:56,239 | INFO | AutomationLogger | GET https://dummyjson.com/users?limit=10&skip=0
+2025-12-28 17:22:57,035 | INFO | AutomationLogger | Status: 200
+2025-12-28 17:22:58,545 | INFO | AutomationLogger | Opening login page
+2025-12-28 17:22:58,545 | INFO | AutomationLogger | LoginPage.open() called

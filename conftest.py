@@ -18,6 +18,8 @@
 import pytest
 from core.config_reader import ConfigReader
 from core.logger import setup_logger
+from core.driver_factory import DriverFactory   
+
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
@@ -31,3 +33,11 @@ def session_setup(request):
 
     # 2️⃣ Setup logging AFTER config is loaded
     setup_logger()
+
+
+@pytest.fixture
+def driver(request):
+    browser = request.config.getoption("--browser")
+    driver = DriverFactory.get_driver(browser)
+    yield driver
+    driver.quit()

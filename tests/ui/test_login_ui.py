@@ -3,6 +3,7 @@ from core.base_test import BaseTest
 from pages.login_page import LoginPage
 
 @pytest.mark.ui
+@pytest.mark.smoke
 class TestLoginUI(BaseTest):
 
     def test_valid_login(self):

@@ -2,4 +2,8 @@ app:
   base_url: https://the-internet.herokuapp.com
 
 api:
-  base_url: https://reqres.in
+  users_base_url: https://dummyjson.com
+  payments_base_url: https://dummyjson.com
+wait:
+  timeout: 10
+  poll: 0.5
